@@ -85,7 +85,7 @@ This project relies on live web data via APIs.
 | Phase                                        | General Activities                                                                 |
 | -------------------------------------------- | ---------------------------------------------------------------------------------- |
 | **Week 1: Setup + Exploration**              | Repo setup, API wrappers, schemas, and mock data                                   |
-| **Week 2: LLM Planning Pipelin**             | LLM prompts, JSON schema outputs, itinerary generation, CLI tool                   |
+| **Week 2: LLM Planning Pipeline**            | LLM prompts, JSON schema outputs, itinerary generation, CLI tool                   |
 | **Week 3: Streamlit/Gradio + Deployment**    | Testing, validation, and deployment via Streamlit/Gradio                           |
 
 
