@@ -1,6 +1,6 @@
 # Welcome to the SuperDataScience Community Project!
 
-Welcome to the **** repository! 🎉
+Welcome to the **TripSmith: Building an AI-Powered Travel Planner** repository! 🎉
 
 This project is a collaborative initiative brought to you by SuperDataScience, a global learning community focused on data science, machine learning, and AI. Whether you’re starting with Generative AI or looking to deepen your skills with tool-using LLMs, we’re excited to have you on board!
 
@@ -39,7 +39,13 @@ project-name/
 
 ## 🟢 Beginner Track
 
+The **Beginner Track** focuses on building a **Python-based travel planner** that connects to APIs (Tavily or SerpAPI) to fetch **flights, hotels, and points of interest (POIs)**. Using an LLM, you will synthesize this information into a simple **day-by-day itinerary**.
 
+At the end of the track, you will:
+- Build minimal API wrappers for search queries.
+- Use schemas (via Pydantic) to structure flight, hotel, and POI data.
+- Prompt an LLM to generate an itinerary in JSON and Markdown formats.
+- Optionally, deploy your solution with **Streamlit** or **Gradio**.
 
 📌 Get started:  
 ➡️ [Beginner Track Scope of Works](./beginner/README.md)  
@@ -50,16 +56,19 @@ project-name/
 
 ## 🔴 Advanced Track
 
+The **Advanced Track** challenges participants to design a **multi-agent AI planner** with advanced reasoning. You will explore concepts like:
+- **Specialized agents** (Flight Agent, Hotel Agent, Itinerary Agent).
+- **Orchestration patterns** (central planner vs decentralized negotiation).
+- **Evaluation metrics** for plan quality (cost, coverage, satisfaction).
+- **Deployment enhancements** (Hugging Face Spaces, Dockerized apps, advanced Streamlit/Gradio dashboards).
+
+At the end of the track, you will have a **multi-agent travel planning system** that goes beyond simple tool-calling and introduces advanced AI engineering practices.
 
 
 📌 Get started:  
 ➡️ [Advanced Track Scope of Works](./advanced/README.md)  
 ➡️ [Advanced Report Template](./advanced/REPORT.md)  
 ➡️ [Submit your work](./advanced/submissions/)  
-
----
-
-## 📊 Dataset
 
 ---
 
@@ -74,13 +83,12 @@ This project relies on live web data via APIs.
 
 ## 🗒️ Project Timeline Overview
 
-| Phase                           | General Activities                                                     |
-| ------------------------------- | ---------------------------------------------------------------------- |
-| **Week 1: Setup + EDA**         | Clean, explore, and visualize the data                                 |
-| **Week 2: Feature Engineering** | Transform features, encode variables, handle imbalance, prepare splits |
-| **Week 3: Model Development**   | Train ML or DL models and evaluate performance                         |
-| **Week 4: Model Optimization**  | Tune models, improve generalization, and interpret results             |
-| **Week 5: Deployment**          | Deploy models via Streamlit or API-based solutions                     |
+| Phase                                        | General Activities                                                                 |
+| -------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Week 1: Setup + Exploration**              | Repo setup, API wrappers, schemas, and mock data                                   |
+| **Week 2: LLM Planning Pipelin**             | LLM prompts, JSON schema outputs, itinerary generation, CLI tool                   |
+| **Week 3: Streamlit/Gradio + Deployment**    | Testing, validation, and deployment via Streamlit/Gradio                           |
+
 
 ---
 
