@@ -43,9 +43,8 @@ The **Beginner Track** focuses on building a **Python-based travel planner** tha
 
 At the end of the track, you will:
 - Build minimal API wrappers for search queries.
-- Use schemas (via Pydantic) to structure flight, hotel, and POI data.
 - Prompt an LLM to generate an itinerary in JSON and Markdown formats.
-- Optionally, deploy your solution with **Streamlit** or **Gradio**.
+- Deploy your solution with **Streamlit** or **Gradio**.
 
 📌 Get started:  
 ➡️ [Beginner Track Scope of Works](./beginner/README.md)  
@@ -59,7 +58,7 @@ At the end of the track, you will:
 The **Advanced Track** challenges participants to design a **multi-agent AI planner** with advanced reasoning. You will explore concepts like:
 - **Specialized agents** (Flight Agent, Hotel Agent, Itinerary Agent).
 - **Orchestration patterns** (central planner vs decentralized negotiation).
-- **Evaluation metrics** for plan quality (cost, coverage, satisfaction).
+- **Use schemas** (via Pydantic) to structure flight, hotel, and POI data.
 - **Deployment enhancements** (Hugging Face Spaces, Dockerized apps, advanced Streamlit/Gradio dashboards).
 
 At the end of the track, you will have a **multi-agent travel planning system** that goes beyond simple tool-calling and introduces advanced AI engineering practices.
