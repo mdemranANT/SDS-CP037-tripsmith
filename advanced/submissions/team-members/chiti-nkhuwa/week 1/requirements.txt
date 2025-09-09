@@ -1,0 +1,31 @@
+# Core AI and LLM dependencies
+openai>=1.0.0
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-community>=0.1.0
+
+# Data validation and schemas
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Web scraping and API tools
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+tavily-python>=0.3.0
+google-search-results>=2.4.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Logging and utilities
+loguru>=0.7.0
+typing-extensions>=4.8.0
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: For future deployment
+streamlit>=1.28.0
+gradio>=4.0.0
