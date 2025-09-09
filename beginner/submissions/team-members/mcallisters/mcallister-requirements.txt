@@ -1,0 +1,13 @@
+# Provides functions to interact with the operating system, such as file/directory operations and environment variable access
+os
+# Enables HTTP requests to fetch data from APIs or websites, simplifying web interactions
+requests
+# Imports type hinting tools to define structured data types (e.g., dictionaries, lists, optional values) for better code clarity and IDE support
+typing 
+
+# Provides classes for manipulating dates and times, useful for timestamps and scheduling
+datetime  
+# Offers an object-oriented approach to handle filesystem paths, making path operations platform-independent
+pathlib 
+# Loads environment variables from a .env file into the application, useful for managing configuration settings securely
+ dotenv
